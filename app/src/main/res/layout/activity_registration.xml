@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- BACK TO EVENT -->
+        <TextView
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="←  Back to Event"
+            android:textColor="#3155D4"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <!-- EVENTNEST BRAND -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:gravity="center"
+                android:text="✦"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="#3155D4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="EVENTNEST"
+                android:textColor="#3155D4"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.15"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="CAMPUS EVENTS"
+                android:textColor="#6B7280"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.18"/>
+
+        </LinearLayout>
+
+        <!-- REGISTRATION TITLE -->
+        <TextView
+            android:id="@+id/registrationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:text="REGISTRATION"
+            android:textColor="#172554"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:gravity="center"
+            android:text="Join the event and be part of the experience."
+            android:textColor="#697082"
+            android:textSize="14sp"/>
+
+        <!-- FORM CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical"
+            android:padding="22dp"
+            android:background="#FFFFFF">
+
+            <!-- NAME -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STUDENT NAME"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"/>
+
+            <EditText
+                android:id="@+id/studentName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter your full name"
+                android:textColor="#000000"
+                android:textColorHint="#8A90A0"
+                android:textSize="15sp"
+                android:padding="14dp"
+                android:background="#F3F5FA"
+                android:inputType="textPersonName"/>
+
+            <!-- EMAIL -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="EMAIL ADDRESS"
+                android:textColor="#7C3AED"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"/>
+
+            <EditText
+                android:id="@+id/studentEmail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter your email address"
+                android:textColor="#000000"
+                android:textColorHint="#8A90A0"
+                android:textSize="15sp"
+                android:padding="14dp"
+                android:background="#F3F5FA"
+                android:inputType="textEmailAddress"/>
+
+            <!-- UNIVERSITY ID -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="UNIVERSITY ID"
+                android:textColor="#DB2777"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"/>
+
+            <EditText
+                android:id="@+id/studentId"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter your university ID"
+                android:textColor="#000000"
+                android:textColorHint="#8A90A0"
+                android:textSize="15sp"
+                android:padding="14dp"
+                android:background="#F3F5FA"
+                android:inputType="text"/>
+
+            <!-- DEPARTMENT -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="DEPARTMENT"
+                android:textColor="#0891B2"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"/>
+
+            <EditText
+                android:id="@+id/studentDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter your department (e.g. CSE)"
+                android:textColor="#000000"
+                android:textColorHint="#8A90A0"
+                android:textSize="15sp"
+                android:padding="14dp"
+                android:background="#F3F5FA"
+                android:inputType="textCapWords"/>
+
+            <!-- PHONE -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="PHONE NUMBER"
+                android:textColor="#16A34A"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.05"/>
+
+            <EditText
+                android:id="@+id/studentPhone"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:hint="Enter your phone number"
+                android:textColor="#000000"
+                android:textColorHint="#8A90A0"
+                android:textSize="15sp"
+                android:padding="14dp"
+                android:background="#F3F5FA"
+                android:inputType="phone"/>
+
+            <!-- COMPLETE REGISTRATION -->
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="28dp"
+                android:text="Complete Registration  →"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#3155D4"/>
+
+        </LinearLayout>
+
+        <!-- FOOTER -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Your campus. Your events. Your experience."
+            android:textColor="#7B8191"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="✦  EventNest"
+            android:textColor="#3155D4"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</ScrollView>

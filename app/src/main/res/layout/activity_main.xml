@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="22dp">
+
+        <!-- EVENTNEST TOP BRAND -->
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/eventnest_logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="EventNest Brand Logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="EVENTNEST"
+            android:textColor="#2563EB"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.18"/>
+
+        <!-- CAMPUS HERO IMAGE -->
+
+        <ImageView
+            android:id="@+id/campusImage"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/eventnest_campus_illustration_crop"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:contentDescription="Campus Events Illustration"/>
+
+        <!-- MAIN TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Your Campus.&#10;Your Events."
+            android:textColor="#0F172A"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="2dp"/>
+
+        <!-- SUBTITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Discover • Connect • Participate"
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:letterSpacing="0.04"/>
+
+        <!-- EXPLORE CARD -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:background="#0F172A"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHAT'S HAPPENING?"
+                android:textColor="#93C5FD"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Find events happening&#10;around your campus."
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/eventButton"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="#FFFFFF"
+                android:text="Explore Events  →"
+                android:textAllCaps="false"
+                android:textColor="#0F172A"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <!-- FOOTER -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="Everything happening on your campus."
+            android:textColor="#94A3B8"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

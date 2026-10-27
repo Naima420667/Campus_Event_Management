@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F7FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✦ EVENTNEST ✦"
+            android:textColor="#3155D4"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Event"
+            android:textColor="#172554"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fill in the information below to create a new event."
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Event Name"
+            android:textColor="#172554"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/eventNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Example: Math Olympiad"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:textColor="#0F172A"
+            android:textColorHint="#64748B"
+            android:padding="14dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Event Date"
+            android:textColor="#172554"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/eventDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Example: 2026-11-20"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="#0F172A"
+            android:textColorHint="#64748B"
+            android:padding="14dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date format: YYYY-MM-DD (Year-Month-Day)"
+            android:textColor="#64748B"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Venue (Event Location)"
+            android:textColor="#172554"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/eventVenueInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Example: University Auditorium"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:textColor="#0F172A"
+            android:textColorHint="#64748B"
+            android:padding="14dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Organizer (Who arranges the event?)"
+            android:textColor="#172554"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/eventOrganizerInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Example: CSE Club"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:textColor="#0F172A"
+            android:textColorHint="#64748B"
+            android:padding="14dp"
+            android:background="#FFFFFF" />
+
+        <Button
+            android:id="@+id/saveEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save Event"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="26dp"
+            android:backgroundTint="#3155D4"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/cancelEventButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Cancel"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#64748B"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

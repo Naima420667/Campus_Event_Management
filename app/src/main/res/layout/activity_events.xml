@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EVENTNEST"
+            android:textColor="#3155D4"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Explore Events"
+            android:textColor="#172554"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Find something exciting to be part of."
+            android:textColor="#777E91"
+            android:textSize="14sp" />
+
+
+        <!-- EVENT 1 -->
+
+        <LinearLayout
+            android:id="@+id/event1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TECHNOLOGY"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tech Fest 2026"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="15 October 2026  •  University Auditorium"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 2 -->
+
+        <LinearLayout
+            android:id="@+id/event2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CODING"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Programming Contest"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="20 October 2026  •  CS Building"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 3 -->
+
+        <LinearLayout
+            android:id="@+id/event3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CULTURE"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Cultural Night"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="25 October 2026  •  Central Auditorium"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 4 -->
+
+        <LinearLayout
+            android:id="@+id/event4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEBATE"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Inter-University Debate"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="30 October 2026  •  Seminar Hall"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 5 -->
+
+        <LinearLayout
+            android:id="@+id/event5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROBOTICS"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Robotics Workshop"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="5 November 2026  •  Innovation Lab"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 6 -->
+
+        <LinearLayout
+            android:id="@+id/event6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAREER"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Career Seminar"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="10 November 2026  •  Seminar Hall"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 7 -->
+
+        <LinearLayout
+            android:id="@+id/event7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SPORTS"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Sports Carnival"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="15 November 2026  •  University Ground"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+        <!-- EVENT 8 -->
+
+        <LinearLayout
+            android:id="@+id/event8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ART &amp; MEDIA"
+                android:textColor="#3155D4"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Art &amp; Photography Exhibition"
+                android:textColor="#172554"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="20 November 2026  •  Art Gallery"
+                android:textColor="#777E91"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/viewEvent8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="View Details  →"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#3155D4"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+</ScrollView>

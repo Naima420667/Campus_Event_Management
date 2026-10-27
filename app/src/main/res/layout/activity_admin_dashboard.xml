@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="←  Back"
+                android:textColor="#3155D4"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingEnd="15dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EVENTNEST ADMIN"
+                android:textColor="#172554"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:letterSpacing="0.1" />
+
+        </LinearLayout>
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📊 Admin Dashboard"
+            android:textColor="#172554"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Real-time campus event statistics &amp; control panel"
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- STATS CARDS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🌐 TOTAL CAMPUS EVENTS"
+                    android:textColor="#3155D4"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+
+                <TextView
+                    android:id="@+id/totalEventsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loading..."
+                    android:textColor="#172554"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🚀 UPCOMING EVENTS"
+                    android:textColor="#16A34A"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+
+                <TextView
+                    android:id="@+id/upcomingEventsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loading..."
+                    android:textColor="#172554"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="⏳ PAST EVENTS"
+                    android:textColor="#64748B"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+
+                <TextView
+                    android:id="@+id/pastEventsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Loading..."
+                    android:textColor="#172554"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- ACTION BUTTONS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN ACTIONS"
+            android:textColor="#3155D4"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/manageEventsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="⚙️ Manage &amp; Delete Events"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#374151"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/addNewEventBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="➕ Add New Event"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#159447"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/calendarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="📅 Event Calendar"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3155D4"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/remindersBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="⏰ Event Reminders"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7C3AED"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/myRegistrationsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🎫 My Registrations"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:backgroundTint="#0F766E"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HEADER -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="←  Back"
+                android:textColor="#3155D4"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingEnd="15dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="EVENTNEST ADMIN"
+                android:textColor="#172554"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:letterSpacing="0.1" />
+
+        </LinearLayout>
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Events"
+            android:textColor="#172554"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete or remove active campus events from the list."
+            android:textColor="#697082"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- EVENTS CONTAINER FOR DELETION -->
+        <LinearLayout
+            android:id="@+id/manageEventsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <!-- NO EVENTS LEFT TEXT -->
+        <TextView
+            android:id="@+id/noEventsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All events have been managed."
+            android:textColor="#697082"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

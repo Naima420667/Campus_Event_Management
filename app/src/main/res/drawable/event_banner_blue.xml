@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="300dp"
+    android:height="120dp"
+    android:viewportWidth="300"
+    android:viewportHeight="120">
+
+    <!-- Background Gradient -->
+    <path
+        android:pathData="M0,0 H300 V120 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="135"
+                android:endColor="#3155D4"
+                android:startColor="#172554"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Decorative Circles -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M240,-20 C280,-20 310,10 310,50 C310,90 280,120 240,120 C200,120 170,90 170,50 C170,10 200,-20 240,-20 Z"
+        android:alpha="0.4" />
+
+    <!-- Campus Building Silhouette -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M30,120 V70 L50,55 L70,70 V120 Z M110,120 V60 H150 V120 Z M200,120 V65 L220,50 L240,65 V120 Z"
+        android:alpha="0.3" />
+
+    <!-- Calendar Icon Graphic -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M135,32 H165 C167.2,32 169,33.8 169,36 V64 C169,66.2 167.2,68 165,68 H135 C132.8,68 131,66.2 131,64 V36 C131,33.8 132.8,32 135,32 Z" />
+
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M131,36 H169 V44 H131 Z" />
+
+    <!-- Calendar Ring Clips -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M139,28 H143 V34 H139 Z M157,28 H161 V34 H157 Z" />
+
+    <!-- Star Graphic -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M150,48 L151.8,51.6 L155.8,52.2 L152.9,55.0 L153.6,59.0 L150,57.1 L146.4,59.0 L147.1,55.0 L144.2,52.2 L148.2,51.6 Z" />
+
+    <!-- Graduation Cap Graphic -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M70,36 L95,46 L70,56 L45,46 Z" />
+
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M56,51 V58 C56,61.5 62.3,64 70,64 C77.7,64 84,61.5 84,58 V51 Z" />
+
+</vector>

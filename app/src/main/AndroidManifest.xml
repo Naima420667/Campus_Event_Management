@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Notification Permission -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Boot Permission -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Alarm Permission -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EventNest"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CampusEventManagement">
+
+        <!-- My Profile Activity (App First Screen / Launcher) -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!-- Main Home Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+
+        <!-- Notification Activity -->
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+
+        <!-- Admin Dashboard Activity -->
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+
+        <!-- Calendar Activity -->
+        <activity
+            android:name=".CalendarActivity"
+            android:exported="false" />
+
+        <!-- Event Reminder Activity -->
+        <activity
+            android:name=".EventReminderActivity"
+            android:exported="false" />
+
+        <!-- Event Pass Activity -->
+        <activity
+            android:name=".EventPassActivity"
+            android:exported="false" />
+
+        <!-- My Registrations Activity -->
+        <activity
+            android:name=".MyRegistrationsActivity"
+            android:exported="false" />
+
+        <!-- Registration Success Activity -->
+        <activity
+            android:name=".RegistrationSuccessActivity"
+            android:exported="false" />
+
+        <!-- Registration Activity -->
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+
+        <!-- Event Details Activity -->
+        <activity
+            android:name=".EventDetailsActivity"
+            android:exported="false" />
+
+        <!-- Add Event Activity -->
+        <activity
+            android:name=".AddEventActivity"
+            android:exported="false" />
+
+        <!-- Event List Activity -->
+        <activity
+            android:name=".EventListActivity"
+            android:exported="false" />
+
+        <!-- Manage Events Activity -->
+        <activity
+            android:name=".ManageEventsActivity"
+            android:exported="false" />
+
+        <!-- Event Reminder Receiver -->
+        <receiver
+            android:name=".EventReminderReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
